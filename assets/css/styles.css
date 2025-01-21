@@ -1,8 +1,16 @@
 @import url("./reset.css");
 
+body {
+	background-color: #f9f9f9;
+}
+
 body > section {
 	display: flex;
 	flex-direction: column;
+}
+
+header {
+	background-color: #ffff;
 }
 
 main {
