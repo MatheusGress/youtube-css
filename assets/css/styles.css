@@ -114,6 +114,27 @@ main {
 	font-weight: bold;
 }
 
+.subscribe-button {
+	width: 9.9375rem;
+	height: 2.5rem;
+	background: #CC0000;
+	cursor: pointer;
+	border-radius: 0.1875rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 2.625rem;
+  }
+
+.subscribe-button button{
+	background: transparent;
+	border: none;
+	color: #F8F8F8;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	cursor: pointer;
+  }
+		
 .related-videos {
 	padding-right: 2rem;
 }
