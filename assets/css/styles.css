@@ -136,6 +136,25 @@ main {
 	cursor: pointer;
   }
 		
+.interactive-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	gap: 2.625rem;
+}
+
+.interactive-buttons button {
+	background: transparent;
+	border: none;
+	color: black;
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: bold;
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem; 
+}
+
 .related-videos {
 	padding-right: 2rem;
 }
