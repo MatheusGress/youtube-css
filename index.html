@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./assets/img/icon-page.png" type="image/x-icon">
 		<title>YouTube 2</title>
 
 		<link rel="stylesheet" href="./assets/css/styles.css" />
@@ -19,15 +20,22 @@
 					</figure>
 				</section>
 				<section class="menu-center">
-					<figure>
-						<img src="./assets/img/menu/search.svg" alt="" />
-					</figure>
+					<section class="search-bar">
+						<section class="search-input">
+							<input type="text" placeholder="Pesquisar" />
+						</section>
+						<section class="search-button">
+							<button type="submit">
+								<img src="./assets/img/menu/search-icon.svg" alt="Buscar" />
+							</button>
+						</section>
+					</section>
 				</section>
 				<section class="menu-right">
 					<figure>
 						<img src="./assets/img/menu/video.svg" alt="" />
 					</figure>
-					<figure><img src="./assets/img/menu/bell.svg" /></figure>
+					<figure><img src="./assets/img/menu/bell.svg" alt="" /></figure>
 					<figure><img src="./assets/img/menu/mimi.svg" alt="" /></figure>
 				</section>
 			</nav>
@@ -56,12 +64,32 @@
 							<p>83,3 mil inscritos</p>
 						</section>
 					</section>
-					<figure>
-						<img
-							src="./assets/img/watching-video/video-actions/subscribe.svg"
-							alt=""
-						/>
-					</figure>
+					<section class="subscribe-button">
+						<button type="button">
+							<p>inscreva-se</p>
+						</button>
+					</section>
+					<section class="interactive-buttons">
+						<button type="button" class="like-action">
+							<img src="./assets/img/watching-video/video-actions/like.svg" alt="Botão de curtir">
+							<p>2 Mil</p>
+						</button>
+					
+						<button type="button" class="dislike-action">
+							<img src="./assets/img/watching-video/video-actions/dislike.svg" alt="Botão de descurtir">
+							<p>Não gostei</p>
+						</button>
+					
+						<button type="button" class="share-action">
+							<img src="./assets/img/watching-video/video-actions/send.svg" alt="Botão de compartilhar">
+							<p>Compartilhar</p>
+						</button>
+					
+						<button type="button" class="download-action">
+							<img src="./assets/img/watching-video/video-actions/download.svg" alt="Botão de download">
+							<p>Download</p>
+						</button>
+					</section>
 				</section>
 				<p>28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</p>
 				<section class="video-description">
