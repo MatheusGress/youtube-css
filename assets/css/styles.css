@@ -1,8 +1,16 @@
 @import url("./reset.css");
 
+body {
+	background-color: #f9f9f9;
+}
+
 body > section {
 	display: flex;
 	flex-direction: column;
+}
+
+header {
+	background-color: #ffff;
 }
 
 main {
@@ -36,8 +44,65 @@ main {
 	gap: 2rem;
 }
 
+.search-bar {
+	display: flex;
+	align-items: center;
+}
+
+.search-input {
+	width: 21.75rem;
+	height: 2.5rem;
+}
+
+.search-input input {
+	width: 100%;
+	height: 100%;
+	padding: 0 0.625rem;
+	font-size: 0.875rem;
+	border: 0.0625rem solid #cccccc83;
+}
+
+.search-button {
+	width: 3.5625rem;
+	height: 2.5rem;
+	background: #f8f8f8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0.0625rem solid #cccccc83;
+	cursor: pointer;
+}
+
+.search-button button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .menu-right {
 	gap: 1.5rem;
+}
+
+.profile-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-image figure {
+	width: 2.3rem;
+	height: 2.3rem;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .watching-video {
@@ -55,7 +120,12 @@ main {
 }
 
 .video-player figure {
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.video-player p {
+	font-weight: bold;
+	font-size: 1.2rem;
 }
 
 .video-actions {
@@ -76,6 +146,81 @@ main {
 	font-weight: bold;
 }
 
-.related-videos {
+.subscribe-button {
+	width: 9.9375rem;
+	height: 2.5rem;
+	background: #cc0000;
+	cursor: pointer;
+	border-radius: 0.1875rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 2.625rem;
+}
+
+.subscribe-button button {
+	background: transparent;
+	border: none;
+	color: #f8f8f8;
+	font-size: 0.875rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.interactive-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2.625rem;
+}
+
+.interactive-buttons button {
+	background: transparent;
+	border: none;
+	color: black;
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.side-menu {
+	display: flex;
+	flex-direction: column;
 	padding-right: 2rem;
+	gap: 1rem;
+}
+
+.related-video {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.thumb-video figure {
+	display: flex;
+}
+
+.thumb-video img {
+	height: 5.625rem;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.point::before {
+	content: "•";
+	font-size: 0.8125rem;
+	color: #000;
+	margin-right: 0.3125rem;
+}
+
+.details p {
+	font-size: 0.95rem;
 }
