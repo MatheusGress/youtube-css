@@ -120,7 +120,12 @@ main {
 }
 
 .video-player figure {
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.video-player p {
+	font-weight: bold;
+	font-size: 1.2rem;
 }
 
 .video-actions {
@@ -199,12 +204,23 @@ main {
 	display: flex;
 }
 
+.thumb-video img {
+	height: 5.625rem;
+}
+
 .details {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
+.point::before {
+	content: "•";
+	font-size: 0.8125rem;
+	color: #000;
+	margin-right: 0.3125rem;
+}
+
 .details p {
-	font-size: 0.75rem;
+	font-size: 0.95rem;
 }
